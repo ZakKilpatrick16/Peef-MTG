@@ -1,0 +1,11 @@
+/* src/global.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+nav {
+    border: 2px solid powderblue;
+    margin: 50px;
+  }

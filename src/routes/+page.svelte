@@ -1,2 +1,29 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<!-- pages.svelte -->
+
+<script lang="ts">
+    import { goto } from '$app/navigation';
+    import Layout from './+Layout.svelte'; // Import the Layout component
+
+    const navigateToPage = (page: string) => {
+        goto(`/${page}`);
+    };
+</script>
+
+<Layout> <!-- Wrap your content with the Layout component -->
+    <h2>Welcome to the Home Page!</h2>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="/Decks">Decks</a></li>
+            <li><a href="/Finance">Finance</a></li>
+            <li><a href="/TournamentData">Tournament Data</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="name-list">
+        <!-- Four clickable names -->
+        <button class="name-button" on:click={() => navigateToPage('/Decks')}>Name 1</button>
+        <button class="name-button" on:click={() => navigateToPage('page2')}>Name 2</button>
+        <button class="name-button" on:click={() => navigateToPage('page3')}>Name 3</button>
+        <button class="name-button" on:click={() => navigateToPage('page4')}>Name 4</button>
+    </div>
+</Layout>
