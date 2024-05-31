@@ -10,7 +10,7 @@
 </style>
 
 <main>
-    <h2>Welcome to Page 1!</h2>
+    <h2>Welcome to Page Deck 1!</h2>
     <p>This is the detail page for Name 1.</p>
     <button on:click={() => goto('/')}>Go back to Home</button>
 </main>
