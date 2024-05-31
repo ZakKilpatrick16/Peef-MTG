@@ -5,7 +5,16 @@
 @import 'tailwindcss/utilities';
 
 
-nav {
-    border: 2px solid powderblue;
+.nav-links {
+    border: 2px solid rgb(74, 202, 63);
     margin: 50px;
   }
+
+.nav-links li {
+  border: 2px solid rgb(74, 202, 63);
+}
+
+.nav-links li a {
+  color: rgb(202, 70, 205);
+}
+
