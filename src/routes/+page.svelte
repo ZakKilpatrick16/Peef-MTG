@@ -25,11 +25,4 @@
         </ul>
     </nav>
     
-    <div class="name-list">
-        <!-- Four clickable names -->
-        <button class="name-button" on:click={() => navigateToPage('/Decks')}>Name 1</button>
-        <button class="name-button" on:click={() => navigateToPage('page2')}>Name 2</button>
-        <button class="name-button" on:click={() => navigateToPage('page3')}>Name 3</button>
-        <button class="name-button" on:click={() => navigateToPage('page4')}>Name 4</button>
-    </div>
 </Layout>

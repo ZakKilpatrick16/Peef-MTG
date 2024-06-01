@@ -1,5 +1,6 @@
 <script>
     import { goto } from '$app/navigation';
+    import TailwindCSS from '/src/lib/TailwindCSS.svelte'
 </script>
 
 <style>
