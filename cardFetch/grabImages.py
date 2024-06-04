@@ -15,7 +15,7 @@ supabase_key = os.getenv('SECRET_KEY')
 supabase = create_client(supabase_url, supabase_key)
 
 # File containing image URLs
-filepath = "./bulkFiles/unique-artwork-20240531210421.json"
+filepath = "./bulkFiles/unique-artwork-*.json"
 
 # Read the file and extract the image URLs
 with open(filepath, 'r') as file:
