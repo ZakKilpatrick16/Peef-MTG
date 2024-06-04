@@ -16,12 +16,15 @@
     <h1 class="text-6xl font-bold underline">
         Hello world!
       </h1>
-    <h2>Welcome to the Home Page!</h2>
+    <h2 class="text-3xl underline">
+        Welcome to the Home Page!
+    </h2>
     <nav class="navbar">
         <ul class="nav-links">
             <li><a href="/Decks">Decks</a></li>
             <li><a href="/Finance">Finance</a></li>
             <li><a href="/TournamentData">Tournament Data</a></li>
+            <li><a href="/Login">Login</a>
         </ul>
     </nav>
     

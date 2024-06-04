@@ -1,7 +1,9 @@
 <script>
     import { goto } from '$app/navigation';
-    import TailwindCSS from '/src/lib/TailwindCSS.svelte'
+    import TailwindCSS from '/Users/zakkilpatrick/Desktop/Sveltekit/MagicWeb/src/lib/TailwindCSS.svelte'
 </script>
+
+<TailwindCSS />
 
 <style>
     main {

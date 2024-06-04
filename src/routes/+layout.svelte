@@ -1,7 +1,5 @@
 <!-- src/routes/+Layout.svelte -->
 
-
-
 <style>
     /* Global styles for the layout */
     main {

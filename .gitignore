@@ -8,8 +8,9 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-cardFetch/bulkFiles/all-cards-20240531212100.json
-cardFetch/bulkFiles/default-cards-20240531210847.json
-cardFetch/bulkFiles/oracle-cards-20240531210231.json
-cardFetch/bulkFiles/rulings-20240531210030.json
-cardFetch/bulkFiles/unique-artwork-20240531210421.json
+cardFetch/bulkFiles/all-cards-*.json
+cardFetch/bulkFiles/default-cards-*.json
+cardFetch/bulkFiles/oracle-cards-*.json
+cardFetch/bulkFiles/rulings-*.json
+cardFetch/bulkFiles/unique-artwork-*.json
+
